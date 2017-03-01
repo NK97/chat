@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat app @spring2017",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NK97/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NK97/chat/issues"
+  },
+  "homepage": "https://github.com/NK97/chat#readme"
+}
