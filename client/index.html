@@ -3,6 +3,20 @@
   <head>
   	<meta charset = "utf-8">
     <title>chat</title>
+    <script src = "/socket.io/socket.io.js"></script>
   </head>
   <body>
+  <h1>Chat room</h1>
+  <input type="text" id="msg_input" style="width:200px;" />
+  <button onclick="sendmessage();">send</button>
+  <div class = "message">
+  <p>ここにメッセージを追加していく予定</p>
+  <script>
+  		  var socket =io.connect(); 
+  		  socket.emit('message',{value:'test'});
+  		  socket.on('from_server',function(data){
+  		  	console.log(data.value);
+  		  });
+  </script>
+  </body>
 </html>
